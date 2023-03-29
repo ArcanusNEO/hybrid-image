@@ -65,7 +65,7 @@ signed main(int argc, char* argv[]) {
   }
 
   double radius = 20.0;
-  if (argc >= 3) radius = max(atof(argv[3]), 0.0);
+  if (argc >= 4) radius = max(atof(argv[3]), 0.0);
 
   Mat img_v[2] = {imread(argv[1], IMREAD_COLOR), imread(argv[2], IMREAD_COLOR)};
 
